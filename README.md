@@ -5,7 +5,7 @@ In this task, we will explore how to handle file operations in Python to manage 
 
 ## Authors
 
-- [@Bioinformatician-dev](https://www.github.com/Bioinformatician-dev)
+- [@Salma](https://www.github.com/Bioinformatician-dev)
 
 
 ## Description
