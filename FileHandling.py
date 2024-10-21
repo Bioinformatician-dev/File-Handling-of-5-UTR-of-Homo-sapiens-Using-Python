@@ -1,11 +1,11 @@
 # Find lines that contain “five_prime_UTR”
-with open('/home/qurat-ul-ain/Desktop/Homo_sapiens.GRCh38.109.chromosome.21.gff3', 'r') as f:
+with open('/home/qurat-ul-ain/Desktop/Homo_sapiens.GRCh38.110.chromosome.19.gff3', 'r') as f:
  for line in f:
  if 'five_prime_UTR' in line:
  print(line)
 
 # Find RNAs that contain more than one 5’UTR
-filename = "/home/qurat-ul-ain/Desktop/Homo_sapiens.GRCh38.109.chromosome.21.gff3"
+filename = "/home/Salma/Desktop/Homo_sapiens.GRCh38.110.chromosome.19.gff3"
 utr_counts = {}
 with open(filename, 'r') as f:
  for line in f:
@@ -25,7 +25,7 @@ for rna_id, count in utr_counts.items():
  print(f"RNA {rna_id} has {count} 5'UTRs")
 
 # Find 5’ UTR sizes
-filename = "/home/qurat-ul-ain/Desktop/Homo_sapiens.GRCh38.109.chromosome.21.gff3"
+filename = "/home/Salma/Desktop/Homo_sapiens.GRCh38.110.chromosome.19.gff3"
 utr_sizes = {}
 with open(filename, 'r') as f:
  for line in f:
@@ -44,7 +44,7 @@ for rna_id, sizes in utr_sizes.items():
  print(f"RNA {rna_id} has {len(sizes)} 5'UTRs of sizes: {', '.join(map(str, sizes))}")
 
 # Find introns and exons sizes
-filename = "/home/qurat-ul-ain/Desktop/Homo_sapiens.GRCh38.109.chromosome.21.gff3"
+filename = "/home/Salma/Desktop/Homo_sapiens.GRCh38.110.chromosome.19.gff3"
 rna_features = {}
 with open(filename, 'r') as f:
  for line in f:
