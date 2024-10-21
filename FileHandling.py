@@ -1,5 +1,5 @@
 # Find lines that contain “five_prime_UTR”
-with open('/home/qurat-ul-ain/Desktop/Homo_sapiens.GRCh38.110.chromosome.19.gff3', 'r') as f:
+with open('/home/Salma/Desktop/Homo_sapiens.GRCh38.110.chromosome.19.gff3', 'r') as f:
  for line in f:
  if 'five_prime_UTR' in line:
  print(line)
